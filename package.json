@@ -1,0 +1,30 @@
+{
+  "name": "FeCES",
+  "version": "1.0.0",
+  "description": "Iron (Fe) Component Entity System - Bare metal game engine components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsparks/FeCES.git"
+  },
+  "keywords": ["component", "game", "component entity system"],
+  "author": "Ben Sparks <bsparks42@gmail.com> (https://github.com/bsparks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsparks/FeCES/issues"
+  },
+  "homepage": "https://github.com/bsparks/FeCES#readme",
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.15"
+  }
+}
