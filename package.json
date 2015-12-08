@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/bsparks/FeCES.git"
   },
-  "keywords": ["component", "game", "component entity system"],
+  "keywords": [
+    "component",
+    "game",
+    "component entity system"
+  ],
   "author": "Ben Sparks <bsparks42@gmail.com> (https://github.com/bsparks)",
   "license": "MIT",
   "bugs": {
@@ -18,6 +22,9 @@
   },
   "homepage": "https://github.com/bsparks/FeCES#readme",
   "jspm": {
+    "dependencies": {
+      "fecore": "github:bsparks/FeCore@master"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
