@@ -1,6 +1,6 @@
 {
   "name": "FeCES",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Iron (Fe) Component Entity System - Bare metal game engine components",
   "main": "index.js",
   "scripts": {
