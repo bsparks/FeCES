@@ -9,7 +9,11 @@ export var EntityMixin = Base => class extends Base {
             return;
         }
         
-        this.id = ++ENTITY_ID;
+        // later extending THREE.Object3D this is readonly...
+        if(!this.id) {
+            this.id = ++ENTITY_ID;
+        }
+        
         this.name = name;
 
         this.components = new Map();
